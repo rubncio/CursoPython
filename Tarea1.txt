@@ -62,4 +62,4 @@ Tarea 1: El algoritmo de la tortilla
         -Presentacion
         -Punto.
     8º Diagrama:
-        Enlace:https://discord.com/channels/1437776178495619134/1437776180114755620/1438143415945793566
+        Enlace:https://www.figma.com/board/Ry7Zh6WrIxfcCFvbOEYkSO/Welcome-to-FigJam?node-id=0-1&p=f&t=BLMrDyfFd8GQHdbK-0
