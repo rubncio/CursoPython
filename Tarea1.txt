@@ -44,11 +44,11 @@ Tarea 1: El algoritmo de la tortilla
         -Si se hace una vitro o en un fogon no afecta.
         
     6º Generación de algoritmo
-        1º picar la cebolla
-        2º cortar las patatas
-        3º calentar la sarten
+        1º Picar la cebolla
+        2º Cortar las patatas
+        3º Calentar la sarten
         4º Freir las patatas
-        5º añadir la cebolla
+        5º Añadir la cebolla
         6º batir los huevos
         7º mezclas todos los ingredientes.
         8º volcar a la sarten.
@@ -56,4 +56,9 @@ Tarea 1: El algoritmo de la tortilla
         10ºVoltear.
         11º emplatar.
         
+    7º Evaluacion de resultado
+        -Textura
+        -Sabor
+        -Presentacion
+        -Punto.
 
