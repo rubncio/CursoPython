@@ -61,4 +61,5 @@ Tarea 1: El algoritmo de la tortilla
         -Sabor
         -Presentacion
         -Punto.
-
+    8º Diagrama:
+        Enlace:https://discord.com/channels/1437776178495619134/1437776180114755620/1438143415945793566
