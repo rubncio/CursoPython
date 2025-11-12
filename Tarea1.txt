@@ -1,0 +1,59 @@
+Tarea 1: El algoritmo de la tortilla
+
+    1º Ingredientes(para 8 personas):
+        -Con/Sin Cebolla X1 Grande
+        -1 docena de huevos
+        -1.5 kilos de Patata
+        -Aceite al gusto
+        -Sal al gusto
+    2º Pasos:
+        1ºPelar las patatas
+        2ºMeterlas en agua
+        3ºCortar en trozos pequeños
+        4ºPicar la Cebolla
+        5ºPoner una sarten en el fuego
+        6ºEncender el fuego
+        7ºEchar el aceite
+        8ºFreir las patatas hasta dorarlas.
+        9ºagregar la cebolla OPCIONAL
+        10ºEchar los huevos en un recipiente
+        11ºBatirlos
+        12ºAgregar sal 
+        13º pasar las patatas y cebolla de la sarten al recipiente.
+        14ºmezclarlo
+        15ºEcharlo a la sarten
+        16ºcocinar a fuego medio hasta que los huevos esten firmes.
+        17ºtapar la sarten con un plato para voltearlo.
+        18ºvolver a voltear cuando la tortilla este cuajada.
+        19ºRetirar del fuego.
+
+    3º Descomposición de los pasos:
+        -Preparar Ingredientes:Pelar, cortar, lavar, etc....
+        -Cocción:Freir las patatas, añadir cebolla , añadir sal, etc...
+        -Preparacion de huevo:Batir el huevo, mezclar con las patata y cebolla.
+        -Cocinar la tortilla: Volcar la mezcla y cocinar ambos lados.
+        -Presentacion: Retirar y servir en plato.
+
+    4º Reconocimiento de patrones
+        -Todos los ingredientes deben cortarse antes de cocinarlos.
+        -Se realizan dos cocciones: una para la cebolla y las patatas y otra para la mezcla con el huevo.
+        -La tortilla requiere de coccion uniforme(Volteos)
+
+    5º Abstracción
+        -La marca de ingredientes es indiferente
+        -Si se hace una vitro o en un fogon no afecta.
+        
+    6º Generación de algoritmo
+        1º picar la cebolla
+        2º cortar las patatas
+        3º calentar la sarten
+        4º Freir las patatas
+        5º añadir la cebolla
+        6º batir los huevos
+        7º mezclas todos los ingredientes.
+        8º volcar a la sarten.
+        9º cocinar.
+        10ºVoltear.
+        11º emplatar.
+        
+
