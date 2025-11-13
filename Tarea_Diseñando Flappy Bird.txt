@@ -1,0 +1,41 @@
+1º Descomponsición en partes principales:
+    Personajes:
+        -PRINCIPAL: se trata de un pajaro y lo encontramos planeando en el aire.
+            -INTERACCIONES:El usuario solo podrá interactuar con el personaje unicamente haciendole dar un pequeño salto.
+            -COMPORTAMIENTOS:El personaje Principal unicamente avanzará por el nivel descendiendo progresivamente de forma permanente hasta que termine el juego.
+
+    Reglas:
+        -Cuando el personaje Principal se encuentre y colisione con cualquier obstaculo del nivel el juego terminará o se reiniciará.
+        LIMITES:
+            - El personaje Principal puede ascender hasta cierto limite(no se pueden rebasar los obstaculos) 
+            - En caso de que el descenso sobrepase el limite el juego terminará o se reiniciará.
+
+    Objetivos:
+        -PRINCIPAL:Que la partida no acabe, para ello el personaje deberá evitar los obstaculos pasando entre los huecos de las tuberias o cualquier parte que no haya obstaculo.
+        -obtener la mayor cantidad de punto posible.
+
+    Niveles:
+        -Un unico nivel que es el entorno sobre el que planea y avanza el personaje, pues según avanza el nivel, este se encontrará con tuberias siendo patrones aleatorios hasta que el juego termine.
+        -Se incrementará más uno la puntación asignada al personaje principal cuando este pase por un obstaculo.
+
+2º Patrones
+    -Cada vez que el usuario interactua con el personaje principal, este dará un pequeño salto.
+    -Cada vez que el personaje principal pase por un obstaculo se tendrá en cuenta para la puntuación.
+    -La aparición de estructuras cada vez que se pasa por un obstaculo, el juego en si es un bucle infinito hasta que termine la partida.
+
+3º Abstracción: Lo esencial del juego es que haya un PERSONAJE PRINCIPAL y los OBSTACULOS y LIMITES con los que el juego pueda hacer su funcion principal 
+llevando acabo las INTERACCIONES Y COMPORTAMIENTOS esperados siendo indiferentes los siguientes puntos.
+    -El diseño del personaje principal
+    -El tipo de obstaculos, podrian ser tuberias o edificios.
+    -El conteo de puntos
+
+4º Algoritmo:
+    1ºInicia bucle
+    2ºAvanza entorno o se hace avanzar a personaje Principal
+    2ºGenera obstaculo con un estado aleatorio
+    3ºReinicia juego o deten juego y pon el contador de puntos a 0 en caso de colision con obstaculo/En caso de no haber colision suma un punto y reinicia el bucle
+
+5º Evaluación
+    -Evaluación de robustez:Comprobar si el juego resiste interacciones extremas como intentar sobrepasar los limites o colisionar y ver si el resultado es el esperado.
+    -Testeo de aceptación:Pedirle a otra persona que pruebe el juego para ver si las reglas son claras
+    -Comprobar que la interaccion con el personaje principal funciona.
