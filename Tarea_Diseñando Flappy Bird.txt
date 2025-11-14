@@ -39,3 +39,5 @@ llevando acabo las INTERACCIONES Y COMPORTAMIENTOS esperados siendo indiferentes
     -Evaluación de robustez:Comprobar si el juego resiste interacciones extremas como intentar sobrepasar los limites o colisionar y ver si el resultado es el esperado.
     -Testeo de aceptación:Pedirle a otra persona que pruebe el juego para ver si las reglas son claras
     -Comprobar que la interaccion con el personaje principal funciona.
+
+6º Diagrama:https://www.figma.com/board/DZnmDmisiZZs10HhGRJJse/Untitled?node-id=0-1&t=1BJjCRt56brZCB0V-1
