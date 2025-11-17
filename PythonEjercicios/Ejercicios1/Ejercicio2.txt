@@ -1,0 +1,3 @@
+Se ha definido la funcion "bienvenida" el cual imprime por pantalla un saludo y da la bienvenida con el valor de la variable introducida en su parametro.
+Recoge y asigna el valor de la variable "usuario" con un input que indica por pantalla que debe de introducir su nombre.
+Dicha variable "usuario" se introduce como parametro en la llamada a la función bienvenida.
