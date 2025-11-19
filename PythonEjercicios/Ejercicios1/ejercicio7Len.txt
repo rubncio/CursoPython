@@ -1,0 +1,7 @@
+¿Qué imprimirá por terminal este código?
+if __name__ == "__main__":
+print(“introduce una palabra o frase”)
+text = input()
+print(len(text))
+
+imprimirá la longuitud de la palabra o frase introducida.
