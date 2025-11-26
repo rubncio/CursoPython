@@ -1,25 +1,42 @@
-def añadirEspacio(numEspacios):
-    contador=0
-    espacios=""
-    while(contador<numEspacios):
-        espacios+=" "
-        contador+=1
+# def añadirEspacio(numEspacios):
+#     contador=0
+#     espacios=""
+#     while(contador<numEspacios):
+#         espacios+=" "
+#         contador+=1
 
-    return espacios
+#     return espacios
 
-def añadirCaracteres(numeroC):
+# def añadirCaracteres(numeroC):
+#     contador=0
+#     caracteres=""
+#     while(contador<numeroC):
+#         caracteres+="#"
+#         contador+=1
+
+#     return caracteres
+
+def añadir(numero, tipoCaracter):
     contador=0
     caracteres=""
-    while(contador<numeroC):
-        caracteres+="#"
+    while(contador<numero):
+        caracteres+=tipoCaracter
         contador+=1
 
     return caracteres
 
-contadorEspacios=5
-numCaracteres=1
-while(contadorEspacios>=0):
-    linea=f"{añadirEspacio(contadorEspacios)}{añadirCaracteres(numCaracteres)}"
-    print(linea)
-    contadorEspacios-=1
-    numCaracteres+=2
+def crearPiramide(numeroFilas, tipoCaracter):
+    filasRestantes=numeroFilas
+    numEspacios=filasRestantes-1
+    numCaracteres=1
+    while(filasRestantes>0):
+        linea=f"{añadir(numEspacios, ' ')}{añadir(numCaracteres, tipoCaracter)}"
+        print(linea)
+        numEspacios-=1
+        numCaracteres+=2
+        filasRestantes-=1
+
+if __name__=="__main__":
+    numFilas=int(input("Indica de cuantas filas quieres la piramide: "))
+    tipoCaracter=input("Indica que tipo de caracter quieres usar: ")
+    crearPiramide(numFilas, tipoCaracter)
