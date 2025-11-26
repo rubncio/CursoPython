@@ -3,7 +3,7 @@ import time
 def contar_hasta_10():
     cadena = ""
     contador=1
-    while 0 < contador <= 10:
+    while contador <= 10:
         if contador==1:
             cadena+=str(f"{contador}")
         else:
@@ -28,6 +28,7 @@ def suma_hasta_cero():
     numerosIntroducidos=[5,3,2,0]
     suma=0
     contador=0
+    
     while contador<len(numerosIntroducidos):
         print("Introduce un numero")
         numero=numerosIntroducidos[contador]
