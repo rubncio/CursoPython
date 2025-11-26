@@ -16,21 +16,18 @@
 
 #     return caracteres
 
-def añadir(numero, tipoCaracter):
-    contador=0
-    caracteres=""
-    while(contador<numero):
-        caracteres+=tipoCaracter
-        contador+=1
-
-    return caracteres
+# def añadir(numero, tipoCaracter):
+#     lineaCaracteres=int(numero)*str(tipoCaracter)
+#     return lineaCaracteres
 
 def crearPiramide(numeroFilas, tipoCaracter):
     filasRestantes=numeroFilas
     numEspacios=filasRestantes-1
     numCaracteres=1
     while(filasRestantes>0):
-        linea=f"{añadir(numEspacios, ' ')}{añadir(numCaracteres, tipoCaracter)}"
+        #linea=f"{añadir(numEspacios, ' ')}{añadir(numCaracteres, tipoCaracter)}"
+        linea=int(numEspacios)*" "+int(numCaracteres)*str(tipoCaracter)
+
         print(linea)
         numEspacios-=1
         numCaracteres+=2
