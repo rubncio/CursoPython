@@ -4,11 +4,13 @@ def contar_hasta_10():
     cadena = ""
     contador=1
     while contador <= 10:
-        if contador==1:
-            cadena+=str(f"{contador}")
-        else:
-            cadena+=str(f",{contador}")
+
+        cadena+=f"{contador}"
+        if contador!=10:
+            cadena+=","
+
         contador+=1
+
     return cadena
 
 
@@ -41,23 +43,24 @@ def suma_hasta_cero():
     print(f"la suma de todos los numero es : {suma}")
     return suma
 
-# def suma_hasta_cero_con_input():
-#     """
-#     Pedir números al usuario hasta que introduzca 0.
-#     Sumar todos los números (excepto el 0 final) y devolver el resultado.
-#     Usa un while.
+def suma_hasta_cero_con_input():
+    """
+    Pedir números al usuario hasta que introduzca 0.
+    Sumar todos los números (excepto el 0 final) y devolver el resultado.
+    Usa un while.
 
-#     IMPORTANTE: para testear este ejercicio no se usará input(),
-#     sino que el alumno debe simular la lógica sin input real.
-#     En este archivo solo retorna un valor de ejemplo.
-#     """
-#     # TODO: Implementar la lógica sin usar input()
-#     numeroIntroducido=1
-#     suma=0
-#     while numeroIntroducido!=0:
-#         numeroIntroducido =int(input("Introduce un numero: "))
-#         suma+=numeroIntroducido
-#     print(f"la suma de todos los numero es : {suma}")
+    IMPORTANTE: para testear este ejercicio no se usará input(),
+    sino que el alumno debe simular la lógica sin input real.
+    En este archivo solo retorna un valor de ejemplo.
+    """
+    # TODO: Implementar la lógica sin usar input()
+    numeroIntroducido=int()
+    suma=0
+    while True:
+        numeroIntroducido =int(input("Introduce un numero: "))
+        if(numeroIntroducido==0):break
+        suma+=numeroIntroducido
+    print(f"la suma de todos los numero es : {suma}")
 
     
 
