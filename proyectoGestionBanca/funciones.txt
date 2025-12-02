@@ -1,0 +1,16 @@
+Acceso:
+    Crear Usuario (Datos personales, configurar pin).||VALIDACION||comprobando que el usuario este dado de alta
+    Iniciar sesion/Validar Usuario(correo y contraseña).||VALIDACION||
+
+Dinero(codigo pin):
+    Ingresar||VALIDACION||
+    Retirar||VALIDACION||
+    Consultar||VALIDACION||
+
+    
+Perfil:
+    Modificar datos personales||VALIDACION||
+    cambiar pin||VALIDACION||
+
+Tester:Angel
+gitMaster:Ruben
