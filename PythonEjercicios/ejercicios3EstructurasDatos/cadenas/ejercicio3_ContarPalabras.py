@@ -1,8 +1,8 @@
 """Solicita una frase y muestra cuántas palabras tiene"""
 def contadorPalabras(cadena):
-    palabrassin=[cadena for cadena in str(cadena).split(" ") if cadena!=""]
-    print(palabrassin)
-    return len(palabrassin)
+    palabras=[cadena for cadena in str(cadena).split(" ") if cadena!=""]
+    print(palabras)
+    return len(palabras)
 
 if __name__ == "__main__":
     cadenaIntroducida = input("Introduzca una frase por favor: ")
